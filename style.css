@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: #f0e2c5; */
+}
+.slide-width {
+  width: 100%;
+  height: 500px;
+}
+h2 {
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+h3 {
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.tailor {
+  width: 98%;
+  margin: auto;
+}
+.top a {
+  color: black;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  /* background-color: #211916; */
+  /* background-color: #575150; */
+  background-color: #ea7531;
+  color: white;
+
+  /* padding: 20px; */
+}
+
+/* hover effect 1 recommand product */
+.card-imghov1 {
+  width: 130px;
+  height: 200px;
+  margin: auto;
+  background: url("images/ss1.jpg") no-repeat;
+  background-size: contain;
+}
+.card-imghov1:hover {
+  /* background-image: url(images/mattressroom.webp); */
+  background: url("images/ss.jpg") no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+/* hover effect 2 */
+.card-imghov2 {
+  width: 130px;
+  height: 200px;
+  margin: auto;
+  background: url("images/lamp1.jpg") no-repeat;
+  background-size: contain;
+}
+.card-imghov2:hover {
+  /* background-image: url(images/mattressroom.webp); */
+  background: url("images/lamp.jpg") no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+/* hover effect 3 */
+.card-imghov3 {
+  width: 130px;
+  height: 200px;
+  margin: auto;
+  background: url("images/chairWside1.jpg") no-repeat;
+  background-size: contain;
+}
+.card-imghov3:hover {
+  /* background-image: url(images/mattressroom.webp); */
+  background: url("images/chairWside.jpg") no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+/* hover effect 4 */
+.card-imghov4 {
+  width: 130px;
+  height: 200px;
+  margin: auto;
+  background: url("images/cofetable1.jpg") no-repeat;
+  background-size: contain;
+}
+.card-imghov4:hover {
+  /* background-image: url(images/mattressroom.webp); */
+  background: url("images/cofetable.jpg") no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+/* hover effect 5 */
+.card-imghov5 {
+  width: 130px;
+  height: 200px;
+  margin: auto;
+  background: url("images/cornersofa1.jpg") no-repeat;
+  background-size: contain;
+}
+.card-imghov5:hover {
+  /* background-image: url(images/mattressroom.webp); */
+  background: url("images/cornersofa.jpg") no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+/* hover effect 6 */
+.card-imghov6 {
+  width: 130px;
+  height: 200px;
+  margin: auto;
+  background: url("images/mattressR1.jpg") no-repeat;
+  background-size: contain;
+}
+.card-imghov6:hover {
+  /* background-image: url(images/mattressroom.webp); */
+  background: url("images/mattressR.jpg") no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+/* hover effect end  */
+.card-body .price {
+  font-weight: bold;
+  font-style: italic;
+}
+/* link our product  */
+.card-pdlink a {
+  text-decoration: none;
+  color: rgb(85, 84, 84);
+}
+
+.card-pdlink a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* end link our product */
