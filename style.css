@@ -80,6 +80,7 @@ footer {
   margin: auto;
   background: url("images/ss1.jpg") no-repeat;
   background-size: contain;
+  transition: 1s;
 }
 .card-imghov1:hover {
   /* background-image: url(images/mattressroom.webp); */
@@ -95,6 +96,7 @@ footer {
   margin: auto;
   background: url("images/lamp1.jpg") no-repeat;
   background-size: contain;
+  transition: 1s;
 }
 .card-imghov2:hover {
   /* background-image: url(images/mattressroom.webp); */
@@ -110,6 +112,7 @@ footer {
   margin: auto;
   background: url("images/chairWside1.jpg") no-repeat;
   background-size: contain;
+  transition: 1s;
 }
 .card-imghov3:hover {
   /* background-image: url(images/mattressroom.webp); */
@@ -125,6 +128,7 @@ footer {
   margin: auto;
   background: url("images/cofetable1.jpg") no-repeat;
   background-size: contain;
+  transition: 1s;
 }
 .card-imghov4:hover {
   /* background-image: url(images/mattressroom.webp); */
@@ -140,6 +144,7 @@ footer {
   margin: auto;
   background: url("images/cornersofa1.jpg") no-repeat;
   background-size: contain;
+  transition: 1s;
 }
 .card-imghov5:hover {
   /* background-image: url(images/mattressroom.webp); */
@@ -155,6 +160,7 @@ footer {
   margin: auto;
   background: url("images/mattressR1.jpg") no-repeat;
   background-size: contain;
+  transition: 1s;
 }
 .card-imghov6:hover {
   /* background-image: url(images/mattressroom.webp); */

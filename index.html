@@ -75,25 +75,22 @@
             class="d-inline-block align-text-top"
           />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
-          <ul class="navbar-nav  mb-2 mb-lg-0 w-30">
-            <li class="nav-item px-3 py-3">
-              <a class="nav-link"  href="#"><i class="fa-solid fa-user"></i></a>
+      
+        <div class="navbar justify-content-center" id="navbarNav" >
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#"><i class="fa-solid fa-user"></i></a>
             </li>
-            <li class="nav-item px-3 py-3">
-              <a class="nav-link" href="#"><i class="fa-solid fa-truck"></i></a>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#"><i class="fa-solid fa-truck"></i></a>
             </li>
-            
-            <li class="nav-item px-3 py-3">
-              <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i></a>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#"><i class="fa-solid fa-heart"></i></a>
             </li>
-            <li class="nav-item px-3 py-3">
-              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
             </li>
-          </ul>          
+          </ul> 
         </div>
         </div>
     </nav>
@@ -166,11 +163,15 @@
               </li>
             </ul>
             <div class="container-fluid me-2 w-25" >
-              <form class="d-flex" role="search" style="">
-               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-    
-     <button class="btn btn-outline-dark" type="submit">Search</button>
-    </form>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
            </div>
           </div>
          
@@ -280,49 +281,94 @@
         </div>
       </div>
       </div>
-
-<!-- services  -->    
-<div class="card-group w-80 mx-4" style="background-color:#ea7531;">
-  <div class="w-40">
-    <img src="images/family.webp" alt=""  style="width: 400px; height: 250px;">
+      
+<!-- services  -->
+<div class="row mx-4" style="background-color:#ea7531;">
+  <div class="col-sm-5 mb-3 mb-sm-0" >
+    <div class="card border-0">
+      <div class="card-body" style="background-color:#ea7531;">
+        <img src="images/family.webp" class="img-fluid object-fit-fill"   style="width: 450px; height: 250px;" alt="...">
+      </div>
+    </div>
   </div>
-  <div class="w-40 ms-5 card-pdlink">
-    <h1 class="ms-0">SERVICES</h1>
-   <p class="lh-lg"> Free shipping for purchases over $ 5,000. <br>
-    Exchange/return your Furnicom products within 30 days of purchase. <br>
-    Get spare free and delivered to your address within 7-10 business days.</br>
-    Cash, bank cards, Furnicom gift cards, and Furnicom FAMILY points.
-  <br>Create and ergonomic workplace with Furnicom for business.</p>
-  <a href="#" class="">For more information, click here</a></div >
+  <div class="col-sm-7" >
+    <div class="card border-0">
+      <div class="card-body card-pdlink ps-5" style="background-color:#ea7531;">
+        <h1 class="ms-0">SERVICES</h1>
+<p class="lh-lg"> Free shipping for purchases over $ 5,000. <br>
+Exchange/return your Furnicom products within 30 days of purchase. <br>
+Get spare free and delivered to your address within 7-10 business days.</br>
+Cash, bank cards, Furnicom gift cards, and Furnicom FAMILY points.
+<br>Create and ergonomic workplace with Furnicom for business.</p>
+<a href="#" class="">For more information, click here</a></div >
+       
+      </div>
+    </div>
+  </div>
 </div>
+
+
 
 <!-- news & events  -->
       <h2>NEWS & EVENTS</h2>
-      <div class="tailor">
-        <div class="card-group text-center">
-        <!-- card  -->
+    <div class="row mx-4 py-3 ">
+      <div class="col-sm-4">
         <div class="card img-fluid">
-          <img width="210" height="300" src="images/christmasale.webp" class="card-img-top" alt="...">
-          <div class="card-body fw-bold" style="background-color:#007CC1">
-            <p class="card-text text-light animate__animated animate__flipOutX   animate__slower	3s animate__infinite	infinite"> Furnishings Christmas Sales</p>
+          <img
+            width="210"
+            height="300"
+            src="images/christmasale.webp"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body fw-bold" style="background-color: #007cc1">
+            <p
+              class="card-text text-light text-center animate__animated animate__flipOutX animate__slower 3s animate__infinite infinite"
+            >
+              Furnishings Christmas Sales
+            </p>
           </div>
-        </div>
-          <!-- card  -->
-          <div class="card img-fluid ms-5" style="">
-            <img width="210" height="300" src="images/CNYsticker.jpg" class="card-img-top" alt="...">
-            <div class="card-body fw-bold" style="background-color:#E4231B">
-              <p class="card-text text-light animate__animated animate__flipOutX  animate__slower	3s animate__infinite	infinite">Mother's Day Sales</p>
-            </div>
-          </div>
-        <!-- card  -->
-        <div class="card img-fluid ms-5" style="">
-          <img width="210" height="300"  src="images/new-launch.jpg" class="card-img-top" alt="...">
-          <div class="card-body fw-bold" style="background-color: #F07F13">
-            <p class="card-text text-light animate__animated animate__flipOutX  animate__slower	3s animate__infinite	infinite">New Release Arm Chair</p>
-          </div>
-        </div>
         </div>
       </div>
+
+      <div class="col-sm-4">
+        <div class="card img-fluid" style="">
+          <img
+            width="210"
+            height="300"
+            src="images/CNYsticker.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body fw-bold" style="background-color: #e4231b">
+            <p
+              class="card-text text-light text-center animate__animated animate__flipOutX animate__slower 3s animate__infinite infinite"
+            >
+              Mother's Day Sales
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card img-fluid" style="">
+          <img
+            width="210"
+            height="300"
+            src="images/new-launch.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body fw-bold" style="background-color: #f07f13">
+            <p
+              class="card-text text-light text-center animate__animated animate__flipOutX animate__slower 3s animate__infinite infinite"
+            >
+              New Release Arm Chair
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
 <!-- recommand products  -->
       <h2>RECOMMAND PRODUCTS</h2>
@@ -396,11 +442,11 @@
       </div>	
 
 <!-- variety link --> 
-  <div class="row border-top border-dark py-5">
-    <div class="col-sm-6">
+  <div class="row border-top py-3  mx-3">
+    <div class="col-sm-6 px-3">
       <div class="card border-0">
         <div class="card-body">
-          <h5 class="card-title">Dream Home Membership</h5>
+          <h5 class="card-title py-0">Dream Home Membership</h5>
           <p class="card-text text-justify">
             Some clubs are for the select few, but IKEA Family is for everyone. Become a Family member and enjoy rewards, discounts, inspirations and a few surprises all year round.</p>
           <a href="#" class="btn btn-dark">Join for free</a>
@@ -444,7 +490,7 @@
         <a href="#" class="list-group-item  border-0">Contact</a>
         <a href="#" class="list-group-item  border-0">About us</a>
         <a href="#" class="list-group-item  border-0">Work with us</a>
-        <a href="admin.html" class="list-group-item  border-0">Dashboard</a>
+       
       </ul>
     </div>
   </div>
@@ -460,7 +506,7 @@
           </div>
           <p class="one-full">Designed and Developed by Furnicom</p>         
           <div class="top border-top border-white py-3">      
- <p>Copyright<i class="fa fa-copyright"></i>  Furnicom Co,.Ltd. All Right Reserved. 
+ <p>Copyright &copy; Furnicom Co,.Ltd. All Right Reserved. 
   <a href="#"><i class="fa-solid fa-circle-chevron-up"></i></a></p> 
 
   
